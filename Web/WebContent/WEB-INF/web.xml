@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javaee:web-app version="3.0"
+	xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd ">
+
+	<javaee:servlet>
+		<javaee:servlet-name>default</javaee:servlet-name>
+		<javaee:servlet-class>test.TestHttpServlet</javaee:servlet-class>
+	</javaee:servlet>
+
+	<javaee:servlet-mapping>
+		<javaee:servlet-name>default</javaee:servlet-name>
+		<javaee:url-pattern>/xx.jsp</javaee:url-pattern>
+	</javaee:servlet-mapping>
+
+	<javaee:servlet>
+		<javaee:servlet-name>Test1</javaee:servlet-name>
+		<javaee:servlet-class>test.TestHttpServlet</javaee:servlet-class>
+	</javaee:servlet>
+
+	<javaee:servlet-mapping>
+		<javaee:servlet-name>Test1</javaee:servlet-name>
+		<javaee:url-pattern>/test/Test1.html</javaee:url-pattern>
+	</javaee:servlet-mapping>
+</javaee:web-app>
