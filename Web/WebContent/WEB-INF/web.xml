@@ -4,23 +4,53 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd ">
 
-	<javaee:servlet>
-		<javaee:servlet-name>default</javaee:servlet-name>
-		<javaee:servlet-class>test.TestHttpServlet</javaee:servlet-class>
-	</javaee:servlet>
+	<!-- 全局Filter设置 -->
+	<javaee:filter>
+		<javaee:filter-name>globalFilter</javaee:filter-name>
+		<javaee:filter-class>GlobalFilter</javaee:filter-class>
+	</javaee:filter>
+	<javaee:filter-mapping>
+		<javaee:filter-name>globalFilter</javaee:filter-name>
+		<javaee:url-pattern>/*</javaee:url-pattern>
+	</javaee:filter-mapping>
 
+	<!-- 全局HttpServlet设置 -->
+	<javaee:servlet>
+		<javaee:servlet-name>globalHttpServlet</javaee:servlet-name>
+		<javaee:servlet-class>GlobalHttpServlet</javaee:servlet-class>
+	</javaee:servlet>
 	<javaee:servlet-mapping>
-		<javaee:servlet-name>default</javaee:servlet-name>
-		<javaee:url-pattern>/xx.jsp</javaee:url-pattern>
+		<javaee:servlet-name>globalHttpServlet</javaee:servlet-name>
+		<javaee:url-pattern>/*</javaee:url-pattern>
 	</javaee:servlet-mapping>
+	
+	<!-- 全局ServletContextListener设置 -->
+	<javaee:listener>
+		<javaee:listener-class>GlobalServletContextListener</javaee:listener-class>
+	</javaee:listener>
+	
+	<!-- 全局ServletContextAttributeListener设置 -->
+	<javaee:listener>
+		<javaee:listener-class>GlobalServletContextAttributeListener</javaee:listener-class>
+	</javaee:listener>
+	
+	<!-- Session相关设置 -->
+	<javaee:session-config>
+		<!-- Session有效分钟时间 -->
+		<javaee:session-timeout>60</javaee:session-timeout>
+	</javaee:session-config>
 
+	<!-- 模块Filter设置 -->
+	
+	
+	<!-- 模块HttpServlet设置 -->
+	<!--   测试模块HttpServlet设置 -->
 	<javaee:servlet>
 		<javaee:servlet-name>Test1</javaee:servlet-name>
 		<javaee:servlet-class>test.TestHttpServlet</javaee:servlet-class>
 	</javaee:servlet>
-
 	<javaee:servlet-mapping>
 		<javaee:servlet-name>Test1</javaee:servlet-name>
-		<javaee:url-pattern>/test/Test1.html</javaee:url-pattern>
+		<javaee:url-pattern>/test/*</javaee:url-pattern>
 	</javaee:servlet-mapping>
 </javaee:web-app>
