@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 public class CookieUtil
 {
 	/**
-	 * ¼ì²éÊÇ·ñÖ§³ÖCookie
+	 * ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Ö§ï¿½ï¿½Cookie
 	 * @param request HttpServletRequest
 	 * @param response HttpServletResponse
 	 */
@@ -29,11 +29,11 @@ public class CookieUtil
 	}
 
 	/**
-	 * ¼ÓÈëÒ»¸öCookie
+	 * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Cookie
 	 * @param response HttpServletResponse
-	 * @param cookieName CookieÃû³Æ
+	 * @param cookieName Cookieï¿½ï¿½ï¿½ï¿½
 	 * @param cookieValue CookieÖµ
-	 * @param maxAge CookieÓÐÐ§Ê±¼ä
+	 * @param maxAge Cookieï¿½ï¿½Ð§Ê±ï¿½ï¿½
 	 */
 	public static boolean addCookie(HttpServletResponse response, String cookieName, String cookieValue, int maxAge)
 	{
@@ -48,9 +48,9 @@ public class CookieUtil
 	}
 
 	/**
-	 * ¼ÓÈëÒ»¸öCookie
+	 * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Cookie
 	 * @param response HttpServletResponse
-	 * @param cookie Cookie¶ÔÏó
+	 * @param cookie Cookieï¿½ï¿½ï¿½ï¿½
 	 */
 	public static boolean addCookie(HttpServletResponse response, Cookie cookie)
 	{
@@ -63,9 +63,9 @@ public class CookieUtil
 	}
 
 	/**
-	 * È¡µÃCookieÖµ
+	 * È¡ï¿½ï¿½CookieÖµ
 	 * @param request HttpServletRequest
-	 * @param cookieName CookieÃû³Æ
+	 * @param cookieName Cookieï¿½ï¿½ï¿½ï¿½
 	 */
 	public static String getCookieValue(HttpServletRequest request, String cookieName)
 	{
@@ -88,9 +88,9 @@ public class CookieUtil
 	}
 
 	/**
-	 * È¡µÃCookie¶ÔÏó
+	 * È¡ï¿½ï¿½Cookieï¿½ï¿½ï¿½ï¿½
 	 * @param request HttpServletRequest
-	 * @param cookieName CookieÃû³Æ
+	 * @param cookieName Cookieï¿½ï¿½ï¿½ï¿½
 	 */
 	public static Cookie getCookie(HttpServletRequest request, String cookieName)
 	{
@@ -113,10 +113,10 @@ public class CookieUtil
 	}
 
 	/**
-	 * ÉèÖÃÒÑÓÐCookieµÄÖµ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cookieï¿½ï¿½Öµ
 	 * @param request HttpServletRequest
 	 * @param response HttpServletResponse
-	 * @param cookieName CookieÃû³Æ
+	 * @param cookieName Cookieï¿½ï¿½ï¿½ï¿½
 	 * @param cookieValue CookieÖµ
 	 */
 	public static boolean setCookieValue(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue)
@@ -125,12 +125,12 @@ public class CookieUtil
 	}
 
 	/**
-	 * ÉèÖÃÒÑÓÐCookieµÄÖµ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cookieï¿½ï¿½Öµ
 	 * @param request HttpServletRequest
 	 * @param response HttpServletResponse
-	 * @param cookieName CookieÃû³Æ
+	 * @param cookieName Cookieï¿½ï¿½ï¿½ï¿½
 	 * @param cookieValue CookieÖµ
-	 * @param maxAge CookieÓÐÐ§Ê±¼ä
+	 * @param maxAge Cookieï¿½ï¿½Ð§Ê±ï¿½ï¿½
 	 */
 	public static boolean setCookieValue(HttpServletRequest request, HttpServletResponse response, String cookieName, String cookieValue, int maxAge)
 	{
@@ -159,10 +159,10 @@ public class CookieUtil
 	}
 
 	/**
-	 * ÒÆ³ýÒÑ´æÔÚCookie
+	 * ï¿½Æ³ï¿½ï¿½Ñ´ï¿½ï¿½ï¿½Cookie
 	 * @param request HttpServletRequest
 	 * @param response HttpServletResponse
-	 * @param cookieName CookieÃû³Æ
+	 * @param cookieName Cookieï¿½ï¿½ï¿½ï¿½
 	 */
 	public static boolean removeCookie(HttpServletRequest request, HttpServletResponse response, String cookieName)
 	{
@@ -187,9 +187,9 @@ public class CookieUtil
 	}
 
 	/**
-	 * ÒÆ³ýÒÑ´æÔÚCookie
+	 * ï¿½Æ³ï¿½ï¿½Ñ´ï¿½ï¿½ï¿½Cookie
 	 * @param response HttpServletResponse
-	 * @param cookie Cookie¶ÔÏó
+	 * @param cookie Cookieï¿½ï¿½ï¿½ï¿½
 	 */
 	public static boolean removeCookie(HttpServletResponse response, Cookie cookie)
 	{
