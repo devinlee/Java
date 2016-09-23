@@ -12,7 +12,7 @@ import base.data.cache.table.CacheTable;
 import base.data.cache.table.ICacheDataTable;
 import base.data.cache.table.ICacheTable;
 import base.types.JavaType;
-import base.util.StringUtil;
+import base.utils.StringUtil;
 
 /**
  * @author Devin

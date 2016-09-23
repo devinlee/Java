@@ -4,7 +4,7 @@ import java.nio.ByteBuffer;
 import java.util.Date;
 
 import base.types.SocketType;
-import base.util.ByteUtil;
+import base.utils.ByteUtil;
 
 public class SocketSendablePacketServer extends SocketSendablePacketBase
 {

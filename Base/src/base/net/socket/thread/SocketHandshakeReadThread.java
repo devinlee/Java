@@ -16,7 +16,7 @@ import base.net.socket.SocketUtil;
 import base.net.socket.packet.ISocketSendablePacketBase;
 import base.types.SocketDataStructureType;
 import base.types.SocketType;
-import base.util.RC4Util;
+import base.utils.RC4Util;
 
 public class SocketHandshakeReadThread implements Runnable
 {

@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 import base.types.SocketDataStructureType;
 import base.types.SocketType;
-import base.util.ByteUtil;
+import base.utils.ByteUtil;
 
 /**
  * 接收数据包

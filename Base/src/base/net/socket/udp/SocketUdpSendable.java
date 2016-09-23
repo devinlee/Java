@@ -24,7 +24,7 @@ import base.net.socket.packet.ISocketSendablePacketBase;
 import base.timer.Timer;
 import base.types.SocketDataStructureType;
 import base.types.SocketType;
-import base.util.CryptoUtil;
+import base.utils.CryptoUtil;
 
 /**
  * Socket Udp 发送窗口

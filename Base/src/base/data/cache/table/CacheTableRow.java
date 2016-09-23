@@ -11,8 +11,8 @@ import base.Base;
 import base.data.cache.CacheEvent;
 import base.event.EventDispatcher;
 import base.types.JavaType;
-import base.util.DataUtil;
-import base.util.TypesUtil;
+import base.utils.DataUtil;
+import base.utils.TypesUtil;
 
 /**
  * 缓存表行

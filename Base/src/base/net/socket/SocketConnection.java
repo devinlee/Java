@@ -33,12 +33,12 @@ import base.net.socket.tcp.SocketTcpConnection;
 import base.net.socket.udp.SocketUdpConnection;
 import base.types.SocketDataStructureType;
 import base.types.SocketType;
-import base.util.ByteUtil;
-import base.util.CryptoUtil;
-import base.util.DateUtil;
-import base.util.RC4Util;
-import base.util.RSAUtil;
-import base.util.WebSocketUtil;
+import base.utils.ByteUtil;
+import base.utils.CryptoUtil;
+import base.utils.DateUtil;
+import base.utils.RC4Util;
+import base.utils.RSAUtil;
+import base.utils.WebSocketUtil;
 
 /**
  * Socket连接基类

@@ -7,7 +7,7 @@ import java.util.Vector;
 import base.net.NetFactory;
 import base.net.socket.SocketUtil;
 import base.types.SocketType;
-import base.util.ByteUtil;
+import base.utils.ByteUtil;
 
 public class SocketSendablePacketClient extends SocketSendablePacketBase
 {

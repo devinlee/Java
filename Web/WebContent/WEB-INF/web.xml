@@ -5,16 +5,16 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd ">
 
 	<!-- 全局Filter设置 -->
-	<javaee:filter>
+	<!-- <javaee:filter>
 		<javaee:filter-name>globalFilter</javaee:filter-name>
 		<javaee:filter-class>GlobalFilter</javaee:filter-class>
 	</javaee:filter>
 	<javaee:filter-mapping>
 		<javaee:filter-name>globalFilter</javaee:filter-name>
 		<javaee:url-pattern>/*</javaee:url-pattern>
-	</javaee:filter-mapping>
+	</javaee:filter-mapping> -->
 
-	<!-- 全局HttpServlet设置 -->
+	<!-- 全局HttpServlet设置
 	<javaee:servlet>
 		<javaee:servlet-name>globalHttpServlet</javaee:servlet-name>
 		<javaee:servlet-class>GlobalHttpServlet</javaee:servlet-class>
@@ -22,17 +22,17 @@
 	<javaee:servlet-mapping>
 		<javaee:servlet-name>globalHttpServlet</javaee:servlet-name>
 		<javaee:url-pattern>/*</javaee:url-pattern>
-	</javaee:servlet-mapping>
+	</javaee:servlet-mapping> -->
 	
-	<!-- 全局ServletContextListener设置 -->
+	<!-- 全局ServletContextListener设置
 	<javaee:listener>
 		<javaee:listener-class>GlobalServletContextListener</javaee:listener-class>
-	</javaee:listener>
+	</javaee:listener> -->
 	
-	<!-- 全局ServletContextAttributeListener设置 -->
+	<!-- 全局ServletContextAttributeListener设置
 	<javaee:listener>
 		<javaee:listener-class>GlobalServletContextAttributeListener</javaee:listener-class>
-	</javaee:listener>
+	</javaee:listener> -->
 	
 	<!-- Session相关设置 -->
 	<javaee:session-config>
@@ -44,7 +44,7 @@
 	
 	
 	<!-- 模块HttpServlet设置 -->
-	<!--   测试模块HttpServlet设置 -->
+	<!--   测试模块HttpServlet设置
 	<javaee:servlet>
 		<javaee:servlet-name>Test1</javaee:servlet-name>
 		<javaee:servlet-class>test.TestHttpServlet</javaee:servlet-class>
@@ -52,5 +52,5 @@
 	<javaee:servlet-mapping>
 		<javaee:servlet-name>Test1</javaee:servlet-name>
 		<javaee:url-pattern>/test/*</javaee:url-pattern>
-	</javaee:servlet-mapping>
+	</javaee:servlet-mapping> -->
 </javaee:web-app>

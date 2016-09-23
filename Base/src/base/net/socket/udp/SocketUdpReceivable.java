@@ -11,8 +11,8 @@ import base.event.EventDispatcher;
 import base.net.socket.SocketConfig;
 import base.net.socket.events.SocketConnectionEvent;
 import base.types.SocketDataStructureType;
-import base.util.ByteUtil;
-import base.util.CryptoUtil;
+import base.utils.ByteUtil;
+import base.utils.CryptoUtil;
 
 public class SocketUdpReceivable extends EventDispatcher
 {

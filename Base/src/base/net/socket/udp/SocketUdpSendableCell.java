@@ -7,7 +7,7 @@ import base.net.NetFactory;
 import base.net.socket.events.SocketConnectionEvent;
 import base.timer.TimerTask;
 import base.types.SocketType;
-import base.util.CryptoUtil;
+import base.utils.CryptoUtil;
 
 /**
  * Socket Udp 发送窗口序列数据单元

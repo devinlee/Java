@@ -7,7 +7,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import base.types.JavaType;
-import base.util.TypesUtil;
+import base.utils.TypesUtil;
 
 /**
  * 缓存表字段

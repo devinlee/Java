@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import base.util.DateUtil;
+import base.utils.DateUtil;
 
 import com.sun.rowset.CachedRowSetImpl;
 
